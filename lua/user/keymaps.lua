@@ -81,4 +81,11 @@ keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 -- Custom
 keymap("n", "<leader>ps", ":PackerSync<CR>", opts)
-
+keymap("n", "<leader>T", ":TransparentToggle<CR>", opts)
+keymap("n", "<C-s>", ":w<cr>", opts)
+keymap("n", "<leader>J", ":!javac % && java %<cr>", opts)
+keymap("n", "<leader>P", ":!python3 %<cr>", opts)
+keymap("n", "<leader>R", ":!cargo run<cr>", opts)
+keymap("n", "<leader>C", ":!gcc % && ./a.out<cr>", opts)
+keymap("n", "<leader>G", ":!gradle build && gradle run<cr>", opts)
+keymap("n", "<leader>H", ":!shellcheck %<cr>", opts)
