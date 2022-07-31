@@ -74,25 +74,40 @@ _G.packer_plugins = {
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  ["DAPInstall.nvim"] = {
-    loaded = true,
-    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim",
-    url = "https://github.com/ravenxrz/DAPInstall.nvim"
-  },
   LuaSnip = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["accelerated-jk.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/accelerated-jk.nvim",
+    url = "https://github.com/xiyaowong/accelerated-jk.nvim"
   },
   ["alpha-nvim"] = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["beacon.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/beacon.nvim",
+    url = "https://github.com/rainbowhxch/beacon.nvim"
+  },
+  ["boo-colorscheme-nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
+  },
+  ["cinnamon.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/cinnamon.nvim",
+    url = "https://github.com/declancm/cinnamon.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -119,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["code_runner.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
+    url = "https://github.com/CRAG666/code_runner.nvim"
+  },
   ["copilot.vim"] = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/copilot.vim",
@@ -144,6 +164,11 @@ _G.packer_plugins = {
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/impatient.nvim",
@@ -154,10 +179,20 @@ _G.packer_plugins = {
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["lightspeed.nvim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/lightspeed.nvim",
+    url = "https://github.com/ggandor/lightspeed.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["nnn.vim"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nnn.vim",
+    url = "https://github.com/mcchrish/nnn.vim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -174,15 +209,10 @@ _G.packer_plugins = {
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-dap"] = {
+  ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-ui"] = {
-    loaded = true,
-    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
-    url = "https://github.com/rcarriga/nvim-dap-ui"
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
@@ -218,6 +248,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  orgmode = {
+    config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\forgmode\frequire\0" },
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/orgmode",
+    url = "https://github.com/nvim-orgmode/orgmode"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -268,10 +304,24 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
+  },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["vim-sunbather"] = {
+    loaded = true,
+    path = "/Users/justchokingaround/.local/share/nvim/site/pack/packer/start/vim-sunbather",
+    url = "https://github.com/nikolvs/vim-sunbather"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: orgmode
+time([[Config for orgmode]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\forgmode\frequire\0", "config", "orgmode")
+time([[Config for orgmode]], false)
 if should_profile then save_profiles() end
 
 end)

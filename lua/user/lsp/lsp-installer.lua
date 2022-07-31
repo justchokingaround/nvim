@@ -15,6 +15,7 @@ local servers = {
   "jdtls",
   "rust_analyzer",
   "taplo",
+  "dockerls",
 }
 
 lsp_installer.setup()
